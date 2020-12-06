@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Trang chủ"
+            android:icon="@drawable/ic_menu_home"/>
+        <item
+            android:id="@+id/nav_search"
+            android:title="Tìm kiếm"
+            android:icon="@drawable/icon_menu_search"/>
+        <item
+            android:id="@+id/nav_category"
+            android:title="Danh mục"
+            android:icon="@drawable/icon_menu_category"/>
+        <item
+            android:id="@+id/nav_save"
+            android:title="Đã lưu"
+            android:icon="@drawable/icon_menu_save"/>
+    </group>
+    <item
+        android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:title="Thông tin cá nhân"
+                    android:icon="@drawable/ic_menu_manage"/>
+                <item
+                    android:id="@+id/nav_login"
+                    android:title="Đăng nhập"
+                    android:icon="@drawable/ic_menu_login"/>
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="Thoát"
+                    android:icon="@drawable/icon_menu_logout" />
+
+            </group>
+        </menu>
+
+    </item>
+
+    <item
+        android:title="Khác">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_news"
+                    android:title="Tin tức hằng ngày"
+                    android:icon="@drawable/ic_menu_news"/>
+                <item
+                    android:id="@+id/nav_send"
+                    android:title="Góp ý"
+                    android:icon="@drawable/ic_menu_send"/>
+                <item
+                    android:id="@+id/nav_about"
+                    android:title="Giới thiệu"
+                    android:icon="@drawable/help_icon"/>
+            </group>
+        </menu>
+
+    </item>
+
+</menu>

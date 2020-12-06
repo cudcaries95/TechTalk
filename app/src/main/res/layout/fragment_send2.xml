@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Fragments.sendFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chúng tôi luôn lắng nghe ý kiến của bạn:" />
+    
+    <EditText
+        android:layout_marginTop="30dp"
+        android:id="@+id/etUsername"
+        android:hint="Username"
+        android:background="@drawable/goccanh_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/etEmail"
+        android:hint="Your Email"
+        android:background="@drawable/goccanh_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etGopY"
+        android:gravity="top"
+        android:inputType="text|textMultiLine"
+        android:layout_marginTop="10dp"
+        android:hint="Hãy nói lên ý kiến/vấn để của bạn..."
+        android:background="@drawable/goccanh_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_marginTop="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center" >
+    <Button
+        android:id="@+id/btnGuiGopY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="GÓP Ý" />
+
+    <ProgressBar
+        android:id="@+id/progressBarGopY"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/btnGuiGopY"
+        app:layout_constraintEnd_toEndOf="@+id/btnGuiGopY"
+        app:layout_constraintStart_toStartOf="@+id/btnGuiGopY"
+        app:layout_constraintTop_toTopOf="@+id/btnGuiGopY" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

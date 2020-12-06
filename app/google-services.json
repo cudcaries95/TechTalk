@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "885687171339",
+    "firebase_url": "https://tech-forums-aa981.firebaseio.com",
+    "project_id": "tech-forums-aa981",
+    "storage_bucket": "tech-forums-aa981.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885687171339:android:cecb68901e37a71b2c0a0e",
+        "android_client_info": {
+          "package_name": "com.edu.news"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885687171339-sip6qs8g09i0cuum1dpn70s66i8c7fpt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxsaLfKk_6WtHkxYgDwpJvNk6U1uIJHho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885687171339-sip6qs8g09i0cuum1dpn70s66i8c7fpt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885687171339:android:a90cb6c98e44934e2c0a0e",
+        "android_client_info": {
+          "package_name": "com.edu.techforums"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885687171339-ilfrovrau2nq3m6oligolgeirohg09vi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.edu.techforums",
+            "certificate_hash": "73e199ad02b8edf41658ca9fe437b3352ca7d152"
+          }
+        },
+        {
+          "client_id": "885687171339-sip6qs8g09i0cuum1dpn70s66i8c7fpt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxsaLfKk_6WtHkxYgDwpJvNk6U1uIJHho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885687171339-sip6qs8g09i0cuum1dpn70s66i8c7fpt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

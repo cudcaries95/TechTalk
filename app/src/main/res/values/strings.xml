@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Tech Talk</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--Introduce Page-->
+
+    <string name="title_aboutus">
+        Giới thiệu về Tech Talk
+    </string>
+
+    <string name="content_aboutus">
+        Với sự phát triển của công nghệ hiện nay, nhu cầu tin tức, thông tin điện tử ngày càng tăng, thay thế cho báo giấy hiện nay.
+        \nỨng dụng có thiết kế đơn giản, tốc độ truy cập nhanh, hoạt động mượt, tiết kiệm thời gian cho người dùng.
+        \nTeam phát triển:
+        \n \t \t-Hoàng Tấn Phát (phathtps10729@fpt.edu.vn)
+        \n \t \t-Châu Rươn (ruoncps09036@fpt.edu.vn)
+        \n \t \t-Đỗ Chiếm Cừ (cudcps10864@fpt.edu.vn)
+        \n \t \t-Phạm Hoàng Tuấn (tuanphps10853@fpt.edu.vn)
+        \n \t \t-Cao Hoàng Phước (phathtps10729@fpt.edu.vn)
+    </string>
+
+    <string name="title_special">
+        Những tính năng nổi bật của Tech Talk ?
+    </string>
+
+    <string name="content_special">
+        - Dễ dàng sử dụng, mọi nơi cùng Tech Talk.
+        \n- Người dùng có tài khoản đăng nhập để chọn lọc những tin tức hay xem.
+        \n- Có thể chia sẻ, lưu bài viết trên tài khoản.
+        \n- Có thể bình luận ở mỗi bài viết.
+    </string>
+</resources>
